@@ -2,6 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 import { apiCallBegan } from './api';
 import moment from 'moment';
 
+
 const slice = createSlice({
     name: 'bugs',
     initialState: {
